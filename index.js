@@ -3,8 +3,8 @@ function login(){
     const password = document.getElementById("password").value;
     
     if(username === "tabibee" && password === "rada"){
-        window.location.href = "https://www.facebook.com/tabetlog";
-    }
+        window.location.href = "Home Page/home.html"
+    } 
     else{
         document.getElementById("pops").style.display = 'block'
         document.getElementById("pp").style.display = 'none'
