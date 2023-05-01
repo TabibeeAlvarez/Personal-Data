@@ -37,3 +37,24 @@ button{
   outline: none;
   border: none;
 }
+
+.popup{
+  background-color: white;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: -70%;
+  text-align: center;
+  height: 250px;
+  display: none;
+}
+
+.popup h1{
+  font-size: 20px;
+}
+
+.button2{
+  background-color: black;
+  color: white;
+}

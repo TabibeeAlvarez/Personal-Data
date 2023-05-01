@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
-    <div class="background">
-        <div class="paper">
-            <form onsubmit="login()" action=""><br>
+    <div id="bg" class="background">
+        <div id="pp" class="paper">
+            <form id="forms" onsubmit="login()" action=""><br>
                 <h1 class="span1">Log-In First</h1><br><br>
                 <h1>UserName</h1>
                 <input id="username" type="text" placeholder="Username"><br><br>
@@ -19,6 +19,13 @@
                 <input id="password" type="password" placeholder="Password"><br><br>
                 <button>Log-In</button>
             </form>
+        </div>
+    </div>
+    <div id="pops" class="popup">
+        <div class="popup2"><br><br><br>
+            <h1>Wrong Email Or Password</h1>
+            <p>Please try again</p><br>
+            <button onclick="back()" class="button2">Back!</button>
         </div>
     </div>
 </body>
