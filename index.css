@@ -33,7 +33,7 @@ body{
 }
 
 button{
-  width: 10%;
+  width: 30%;
   background-color: black;
   color: white;
   outline: none;
@@ -64,7 +64,7 @@ button{
   border-radius: 2px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .background{
     margin-top: 10%;
   }
@@ -78,13 +78,13 @@ button{
   }
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (min-width: 1280px){
   .background{
     margin-top: 15%;
   }
 
   .popup{
-    margin-top: -20%;
+    margin-top: -25%;
   }
 
   button{
@@ -92,7 +92,7 @@ button{
   }
 }
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .background{
     margin-top: 10%;
   }
@@ -104,4 +104,4 @@ button{
   button{
     width: 15%;
   }
-}
+} */
