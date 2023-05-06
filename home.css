@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    text-align: center;
+    background-color: black;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav li i{
+    font-size: 25px;
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#x{
+    color: white;
+    display: none;
+    font-size: 25px;
+    margin-top: -5%;
+}
+
+#show{
+    display: none;
+    font-size: 12px;
+}
+
+#show2{
+    display: none;
+    font-size: 12px;
+}
+
+#show3{
+    display: none;
+    font-size: 12px;
+}
+
+#show4{
+    display: none;
+    font-size: 12px;
+}
+
+/*     QUALIFICATION        */
+h1{
+    font-size: 20px;
+}
+
+.qualification ul{
+    margin-left: 14%;
+    position: absolute;
+}
+
+/*     EDUCATION        */
+
+.education ul{
+    margin-left: 7%;
+    margin-top: 70%;
+}
+
+.education h1{
+    margin-left: 30px;
+}
+
+.education li{
+    margin-left: 7%;
+    font-size: 16px;
+}
+
+/*    Work Experience      */
+.workexp h1{
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+.workexp li{
+    margin-left: 14%;
+    font-size: 16px;
+}
+
+.main{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+/*    personal information       */
+.Personalinfo{
+    color: white;
+}
+.Personalinfo h1{
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+.Personalinfo li{
+    margin-left: 14%;
+    font-size: 16px;
+}
+
+.Personal-Information{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+span{
+    color: red;
+}
+
+/*    skills        */
+
+.skills h1{
+    font-size: 20px;
+    margin-left: 15%;
+}
+
+.skills li{
+    margin-left: 14%;
+    font-size: 16px;
+    color: white;
+}

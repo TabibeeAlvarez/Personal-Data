@@ -3,7 +3,7 @@ function login(){
     const password = document.getElementById("password").value;
     
     if(username === "tabibee" && password === "rada"){
-        window.location.href = "Home Page/home.html"
+        window.location.href = "home.html"
     } 
     else{
         document.getElementById("pops").style.display = 'block'
